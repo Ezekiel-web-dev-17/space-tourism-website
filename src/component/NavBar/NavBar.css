@@ -1,0 +1,45 @@
+nav {
+  max-height: 136px;
+}
+
+.seperator {
+  height: 1px;
+  opacity: 1;
+}
+
+.links {
+  background-color: #afaeae21;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.26);
+  color: white;
+  font-size: large;
+}
+
+span {
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:focus {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 2.7rem;
+}
+
+.nav-link {
+  font-family: "Barlow", serif;
+}
+
+@media (max-width: 400px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (width: 768px) {
+  .seperator {
+    display: none;
+  }
+}

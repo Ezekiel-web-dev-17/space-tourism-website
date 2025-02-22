@@ -1,0 +1,391 @@
+#root {
+  --percentageone: 0%;
+  --percentagetwo: -30%;
+  --percentagethree: -60%;
+}
+
+.tech-con {
+  background-image: image-set(
+    "../../../src/assets/assets/technology/background-technology-desktop.jpg"
+  );
+  background-size: cover;
+  color: #ffffff;
+  height: 120dvh;
+  text-align: start;
+  overflow-y: hidden;
+}
+
+.term {
+  font-size: 1.5em;
+  font-family: "Bellefair", serif;
+}
+
+.tech-term {
+  font-size: 3em;
+  font-family: "Bellefair", serif;
+}
+
+.about-term {
+  width: 430px;
+  font-family: Barlow;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: 0px;
+}
+
+.tech-term-card {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 00px;
+}
+
+.term-carousel-con {
+  padding-top: 20px;
+  height: 120vh;
+}
+
+.termins-container {
+  overflow: hidden;
+  width: 100%;
+  height: 110vh;
+}
+
+.tech-btns {
+  width: 65px;
+  height: 60px;
+  border: 2px rgba(255, 255, 255, 0.488) solid;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Bellefair", serif;
+}
+
+.tech-btns:focus {
+  background-color: #fff;
+  color: black;
+}
+
+.page-buttons {
+  place-items: center;
+  padding: 5px 10px 50px 30px;
+  margin-top: 105px;
+}
+
+.tech-image {
+  width: 608px;
+  max-height: 500px;
+}
+
+.tech-image img {
+  max-height: 500px;
+}
+/* 
+.technology-slide.spaceport {
+  margin-top: 0px;
+  margin-bottom: 100px;
+}  */
+
+.technology-slide {
+  max-height: 500px;
+  margin-top: -5px;
+  margin-bottom: 100px;
+}
+
+.terms-contain {
+  padding-left: 140px;
+  padding-right: 0;
+  max-height: 888px;
+}
+
+.link-but {
+  left: -15px;
+  width: 10%;
+  margin-left: 150px;
+}
+
+.tech-term-card.spaceCapsule {
+  margin-top: 0px;
+}
+
+.spaceport-slide.tech-image img {
+  max-height: 450px;
+}
+
+.termin-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  height: 1950px;
+}
+
+Link {
+  font-family: "Barlow", serif;
+}
+
+@media (width: 768px) {
+  #root {
+    --percentageone: 0%;
+    --percentagetwo: -40%;
+    --percentagethree: -80%;
+  }
+
+  .tech-con {
+    height: 105dvh;
+  }
+
+  .termins-container {
+    overflow-y: scroll;
+    width: 100%;
+    height: 80vh;
+  }
+
+  .terms-contain {
+    padding-left: 0px;
+  }
+  .tech-con {
+    background-image: image-set(
+      "../../../src/assets/assets/technology/background-technology-tablet.jpg"
+    );
+  }
+
+  .space-launch {
+    padding-left: 50px;
+  }
+
+  h3.space-launch {
+    line-height: 24px;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  div.space-launch-text {
+    margin-top: 330px;
+  }
+
+  .term {
+    line-height: 27.5px;
+  }
+
+  h2.tech-term {
+    line-height: 45.84px;
+  }
+
+  .technology-slide {
+    position: relative;
+    height: 800px;
+  }
+
+  .tech-image {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    height: 357px;
+  }
+
+  .tech-text {
+    min-width: 768px;
+    margin-top: 460px;
+    position: absolute;
+    left: -100px;
+    top: 20px;
+    padding-inline-start: 130px;
+    padding-inline-end: 110px;
+    font-size: 400;
+    line-height: 28.8px;
+    z-index: inherit;
+    position: relative;
+    height: 320px;
+  }
+
+  .link-but {
+    top: -90px;
+    left: 13%;
+  }
+
+  .about-term {
+    padding-inline-end: 0;
+  }
+
+  .page-buttons {
+    height: 0px;
+    padding-block-start: 0px;
+    position: absolute;
+  }
+
+  button.tech-btns {
+    min-width: 56px;
+  }
+
+  .technology-slide {
+    height: 800px;
+  }
+
+  .spaceport-slide,
+  .spaceCapsule-slide {
+    min-height: min-content;
+    margin-top: 220px;
+  }
+
+  div.technology-slide.spaceport-slide {
+    height: 100%;
+    padding-top: 65px;
+    margin-block-end: 18px;
+  }
+
+  .port-img {
+    top: 100px;
+    margin-top: 600px;
+  }
+
+  .about-term-port {
+    padding-inline: 10px;
+    text-wrap: pretty;
+  }
+
+  .spaceCapsule-slide {
+    margin-top: 10px;
+    margin-block-end: 230px;
+  }
+
+  .term-carousel-con {
+    padding-block-start: 40px;
+    height: 1200px;
+  }
+
+  .termin-track {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+
+  .term-capsule {
+    z-index: 5;
+  }
+
+  .capsuletext-con {
+    margin-top: 430px;
+  }
+
+  .spaceCapsule-img {
+    top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  #root {
+    --percentageone: 0%;
+    --percentagetwo: -31%;
+    --percentagethree: -63.5%;
+  }
+
+  .termins-container {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+  }
+
+  main.tech-terms-contain {
+    padding-inline-start: 0px;
+  }
+
+  h3.space-launch {
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 15%;
+  }
+
+  .technology-slide {
+    position: relative;
+    height: 100dvh;
+    max-width: 375px;
+    margin-block-end: 133px;
+  }
+
+  .tech-image {
+    width: 373px;
+    height: 258px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+
+  .tech-text {
+    max-width: 327px;
+    margin-top: 460px;
+    position: absolute;
+    right: 75px;
+    top: 20px;
+    padding: 0;
+    font-size: 400;
+    line-height: 28.8px;
+    z-index: inherit;
+    position: relative;
+    height: 323px;
+  }
+
+  .term {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20.63px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .tech-term {
+    font-weight: 400;
+    line-height: 27.5px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p.about-term {
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    max-width: 346px;
+    height: 323px;
+    font-size: 16px;
+  }
+
+  .page-buttons {
+    max-height: 40px;
+    padding-block-start: 0px;
+    position: absolute;
+  }
+
+  .link-but {
+    top: -110px;
+    left: -28%;
+  }
+
+  button.tech-btns {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    place-items: center;
+  }
+
+  .close {
+    margin-inline-start: 208px;
+  }
+
+  section.menu-dropdown {
+    right: -100%;
+    height: 0px;
+  }
+
+  section.menu-dropdown .dropdown-open {
+    height: 100dvh;
+    width: 327px;
+    top: -70px;
+    background: #000;
+    /* background: #0b0d1726; */
+    backdrop-filter: blur(10px);
+    transform: translateX(-88%);
+    transition: transform 0.5s ease-in-out;
+    padding-left: 30px;
+  }
+}
