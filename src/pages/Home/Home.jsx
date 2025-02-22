@@ -91,7 +91,7 @@ const Home = () => {
           </p>
         </div>
         <div className="home-btn">
-          <a href="../Destination">
+          <a href="/destination">
             <button className="rounded-circle bg-white">EXPLORE</button>
           </a>
         </div>
