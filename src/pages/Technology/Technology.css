@@ -272,7 +272,7 @@ Link {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 410px) {
   #root {
     --percentageone: 0%;
     --percentagetwo: -31%;
@@ -303,11 +303,12 @@ Link {
   }
 
   .tech-image {
-    width: 373px;
-    height: 258px;
+    width: 370px;
+    height: 255px;
     top: 0px;
     left: 0px;
     position: absolute;
+    padding-left: 20px;
   }
 
   .tech-text {
