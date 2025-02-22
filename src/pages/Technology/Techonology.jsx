@@ -74,13 +74,15 @@ const Techonology = () => {
   return (
     <div className="tech-con">
       <div className="pages-nav d-flex d-sm-none justify-content-between align-items-center pt-4 pb-0 px-4">
-        <img
-          className="d-sm-none logo "
-          src={logo}
-          alt=""
-          width="40px"
-          height="40px"
-        />
+        <a className=" text-decoration-none" href="?">
+          <img
+            className="d-sm-none logo "
+            src={logo}
+            alt=""
+            width="40px"
+            height="40px"
+          />
+        </a>
         <img
           // onClick={setClosedBurger(true)}
           className="d-sm-none menu"
@@ -93,7 +95,7 @@ const Techonology = () => {
       <section className="menu-dropdown w-75 d-sm-none position-relative z-3 bg-black opacity-75">
         <div className=" position-absolute">
           <img
-            className="close top-0 mt-4 end-0 me-4 d-sm-none d-block"
+            className="close top-0 mt-5 end-0 me-4 d-sm-none d-block"
             src={close}
             alt=""
           />

@@ -69,13 +69,15 @@ const Crew = () => {
   return (
     <div className="crew-con">
       <div className="pages-nav d-flex d-sm-none justify-content-between align-items-center pt-4 pb-0 px-4">
-        <img
-          className="d-sm-none logo "
-          src={logo}
-          alt=""
-          width="40px"
-          height="40px"
-        />
+        <a href="?">
+          <img
+            className="d-sm-none logo "
+            src={logo}
+            alt=""
+            width="40px"
+            height="40px"
+          />
+        </a>
         <img className="d-sm-none menu" src={menu} alt="" />
       </div>
       <NavBar />
