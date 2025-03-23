@@ -3,9 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 
 .err {
-  background-image: image-set(
-    "../../../src/assets/assets/home/background-home-mobile.jpg"
-  );
+  background-image: image-set("../../assets/home/background-home-mobile.jpg");
   background-size: cover;
   color: rgba(255, 255, 255, 0.705);
   font-family: "Barlow Condensed", serif;
@@ -60,7 +58,7 @@
 
 @media (max-width: 834px) and (min-width: 768px) {
   .err {
-    background-image: url("../../../src/assets/assets/home/background-home-tablet.jpg");
+    background-image: url("../../assets/home/background-home-tablet.jpg");
   }
   .error-con h1 {
     font-size: 3.5rem;

@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./Error.css";
 import { Link } from "react-router-dom";
-import spaceman from "../../../src/assets/assets/shared/Group.png";
+import spaceman from "../../assets/shared/Group.png";
 import NavBar from "../../component/NavBar/NavBar";
-import logo from "../../../src/assets/assets/shared/logo.svg";
-import menu from "../../../src/assets/assets/shared/icon-hamburger.svg";
-import close from "../../../src/assets/assets/shared/icon-close.svg";
+import logo from "../../assets/shared/logo.svg";
+import menu from "../../assets/shared/icon-hamburger.svg";
+import close from "../../assets/shared/icon-close.svg";
 
 const Error = () => {
   useEffect(() => {

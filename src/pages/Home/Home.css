@@ -2,7 +2,8 @@
 
 .home-body {
   background-image: image-set(
-    "../../../src/assets/assets/home/background-home-desktop.jpg"
+    /* "../../../src/assets/assets/home/background-home-desktop.jpg" */
+      "../../assets/home/background-home-desktop.jpg"
   );
   background-size: cover;
   color: rgba(255, 255, 255, 0.705);
@@ -61,7 +62,8 @@
     overflow-x: hidden;
     color: #ffffffc2;
     background-image: image-set(
-      "../../../src/assets/assets/home/background-home-mobile.jpg"
+      /* "../../../src/assets/assets/home/background-home-mobile.jpg" */
+        "../../assets/home/background-home-mobile.jpg"
     );
   }
 
@@ -122,7 +124,8 @@
     overflow-x: hidden;
     color: #ffffffc2;
     background-image: image-set(
-      "../../../src/assets/assets/home/background-home-tablet.jpg"
+      /* "../../../src/assets/assets/home/background-home-tablet.jpg" */
+        "../../assets/home/background-home-tablet.jpg"
     );
   }
 

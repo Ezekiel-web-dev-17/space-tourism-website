@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./Destination.css";
 import NavBar from "../../component/NavBar/NavBar";
-import lap from "../../../src/assets/assets/shared/Line.png";
-import tab from "../../../src/assets/assets/shared/Line (1).png";
-import mobile from "../../../src/assets/assets/shared/Line (2).png";
-import logo from "../../../src/assets/assets/shared/logo.svg";
-import menu from "../../../src/assets/assets/shared/icon-hamburger.svg";
-import close from "../../../src/assets/assets/shared/icon-close.svg";
+import lap from "../../assets/shared/Line.png";
+import tab from "../../assets/shared/Line (1).png";
+import mobile from "../../assets/shared/Line (2).png";
+import logo from "../../assets/shared/logo.svg";
+import menu from "../../assets/shared/icon-hamburger.svg";
+import close from "../../assets/shared/icon-close.svg";
 import { Link } from "react-router-dom";
 
 const destinations = {
   Moon: [
     {
       id: 1,
-      image: "../../../src/assets/assets/destination/image-moon.webp",
+      image: "../../../src/assets/destination/image-moon.webp",
       name: "MOON",
       text: "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
       distance: "384,400 KM",
@@ -24,7 +24,7 @@ const destinations = {
   Mars: [
     {
       id: 2,
-      image: "../../../src/assets/assets/destination/image-mars.webp",
+      image: "../../../src/assets/destination/image-mars.png",
       name: "MARS",
       text: "Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons, the tallest Planetary mountain in our solar system. It's two and a half times the size of Everest!",
       distance: "225 MIL. KM",
@@ -34,7 +34,7 @@ const destinations = {
   Europa: [
     {
       id: 3,
-      image: "../../../src/assets/assets/destination/image-europa.webp",
+      image: "../../src/assets/destination/image-europa.png",
       name: "EUROPA",
       text: "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
       distance: "628 MIL. KM",
@@ -44,7 +44,7 @@ const destinations = {
   Titan: [
     {
       id: 4,
-      image: "../../../src/assets/assets/destination/image-titan.webp",
+      image: "../../src/assets/destination/image-titan.png",
       name: "TITAN",
       text: "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
       distance: "1.6 BIL. KM",
@@ -75,7 +75,12 @@ const Destination = () => {
   }, [0]);
 
   return (
-    <div className="dest-con">
+    <div
+      className="dest-con"
+      style={{
+        fontFamily: `"Barlow", serif `,
+      }}
+    >
       <div className="pages-nav d-flex d-sm-none justify-content-between align-items-center pt-4 pb-0 px-4">
         <a href="?">
           <img

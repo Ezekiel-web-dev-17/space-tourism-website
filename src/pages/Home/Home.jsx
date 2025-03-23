@@ -1,9 +1,13 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import NavBar from "../../component/NavBar/NavBar";
-import logo from "../../../src/assets/assets/shared/logo.svg";
-import menu from "../../../src/assets/assets/shared/icon-hamburger.svg";
-import close from "../../../src/assets/assets/shared/icon-close.svg";
+// import logo from "../../../src/assets/assets/shared/logo.svg";
+// import menu from "../../../src/assets/assets/shared/icon-hamburger.svg";
+// import close from "../../../src/assets/assets/shared/icon-close.svg";
+// import { Link } from "react-router-dom";
+import logo from "../../assets/shared/logo.svg";
+import menu from "../../assets/shared/icon-hamburger.svg";
+import close from "../../assets/shared/icon-close.svg";
 import { Link } from "react-router-dom";
 
 const Home = () => {

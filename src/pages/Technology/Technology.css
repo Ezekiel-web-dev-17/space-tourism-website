@@ -6,7 +6,7 @@
 
 .tech-con {
   background-image: image-set(
-    "../../../src/assets/assets/technology/background-technology-desktop.jpg"
+    "../../assets/technology/background-technology-desktop.jpg"
   );
   background-size: cover;
   color: #ffffff;
@@ -145,7 +145,7 @@ Link {
   }
   .tech-con {
     background-image: image-set(
-      "../../../src/assets/assets/technology/background-technology-tablet.jpg"
+      "../../assets/technology/background-technology-tablet.jpg"
     );
   }
 
@@ -279,6 +279,11 @@ Link {
     --percentagethree: -63.5%;
   }
 
+  .tech-con {
+    background-image: image-set(
+      "../../assets/technology/background-technology-mobile.jpg"
+    );
+  }
   .termins-container {
     overflow-y: scroll;
     width: 100%;

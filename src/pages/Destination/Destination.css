@@ -1,6 +1,6 @@
 .dest-con {
   background-image: image-set(
-    "../../../src/assets/assets/destination/background-destination-desktop.jpg"
+    "../../../src/assets/destination/background-destination-desktop.jpg"
   );
   background-size: cover;
   color: white;
@@ -105,7 +105,7 @@ a:focus,
 @media (max-width: 400px) {
   .dest-con {
     background-image: image-set(
-      "../../../src/assets/assets/destination/background-destination-mobile.jpg"
+      "../../../src/assets/destination/background-destination-mobile.jpg"
     );
     background-size: cover;
     color: white;
@@ -226,15 +226,17 @@ a:focus,
 @media (width: 768px) {
   .dest-con {
     background-image: image-set(
-      "../../../src/assets/assets/destination/background-destination-tablet.jpg"
+      "../../../src/assets/destination/background-destination-tablet.jpg"
     );
     background-size: cover;
-    color: #ffffff;
+    color: white;
     height: 100vh;
     text-align: start;
-    font-family: "Barlow", serif;
+
     max-width: 820px;
   }
+
+  /*  */
 
   .destin-track {
     display: flex;
